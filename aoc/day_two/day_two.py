@@ -1,4 +1,4 @@
-from utilities.utils import read_input_file_as_array_of_strings
+from aoc.utilities.utils import read_input_file_as_array_of_strings
 
 
 move_by_alpha_coding = {

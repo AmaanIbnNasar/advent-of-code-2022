@@ -1,4 +1,4 @@
-from day_one.day1 import (
+from aoc.day_one.day_one import (
     read_input_file_as_array,
     get_max_elf_calories,
     get_elf_calories_summed,
@@ -23,7 +23,7 @@ def test_read_input_file_as_array():
         10000,
     ]
 
-    actual_array = read_input_file_as_array("./day_1/test.txt")
+    actual_array = read_input_file_as_array("./aoc/day_one/test.txt")
 
     assert actual_array == expected_array
 
