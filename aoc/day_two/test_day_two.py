@@ -1,4 +1,4 @@
-from aoc.day_2.day_two import (
+from aoc.day_two.day_two import (
     calculate_score_of_strategy,
     calculate_my_outcome_from_moves,
     calculate_my_move_from_outcome_and_opponent,
