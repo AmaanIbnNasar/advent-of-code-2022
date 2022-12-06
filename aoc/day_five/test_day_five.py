@@ -36,10 +36,10 @@ def test_run_through_instructions():
     ]
 
     day_five.run_all_instructions(stack_by_name, instructions)
-
-    assert stack_one == ["C"]
-    assert stack_two == ["M"]
-    assert stack_three == ["P", "D", "N", "Z"]
+    print(stack_by_name)
+    assert stack_one == ["M"]
+    assert stack_two == ["C"]
+    assert stack_three == ["P", "Z", "N", "D"]
 
 
 def test_parse_instruction():
