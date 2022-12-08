@@ -5,7 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Module",
+      "name": "8",
+      "type": "python",
+      "request": "launch",
+      "module": "aoc.day_eight.day_eight",
+      "justMyCode": true
+    },
+    {
+      "name": "7",
       "type": "python",
       "request": "launch",
       "module": "aoc.day_seven.day_seven",
